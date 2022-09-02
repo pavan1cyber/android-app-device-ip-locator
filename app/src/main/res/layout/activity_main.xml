@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/shtplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#2FCFCFCF"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:hint="ENTER ADRESS IN IPv4"
+            android:inputType="numberSigned|number|numberPassword|phone"
+            android:padding="20sp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9C9C9C" />
+
+        <Button
+            android:id="@+id/shtbut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="getinformation"
+            android:padding="20sp"/>
+
+
+        <Button
+            android:id="@+id/shtfull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="20sp"
+            android:text="full detail" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+            android:background="#8DFFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:padding="10sp"
+            android:text="DOMAIN SERVICE LOCATION"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_horizontal" />
+
+
+        <EditText
+            android:id="@+id/shtdetailtv"
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="100dp"
+
+
+            android:background="#C9FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:text="Domain service  json will be shown "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+<!--androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shtbut"
+        android:layout_width="182dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="getinformation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shtplace" />
+
+    <Button
+        android:id="@+id/shtfull"
+        android:layout_width="149dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="24dp"
+        android:text="full detail"
+        app:layout_constraintStart_toEndOf="@+id/shtbut"
+        app:layout_constraintTop_toBottomOf="@+id/shtplace" />
+
+    <EditText
+        android:id="@+id/shtplace"
+        android:layout_width="368dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#2FCFCFCF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:hint="ENTER ADRESS IN IPv4"
+        android:inputType="numberSigned|number|numberPassword|phone"
+        android:padding="20sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9C9C9C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/shtdetail"
+        android:layout_width="354dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:translationY="324sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shtdetailtv" />
+
+    <TextView
+        android:id="@+id/shtdetailtv"
+        android:layout_width="354dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="168dp"
+        android:background="#C9FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:outlineProvider="none"
+        android:padding="10sp"
+        android:text="domain service location will be shown "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shtbut"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:background="#8DFFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:padding="10sp"
+        android:text="DOMAIN SERVICE LOCATION"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shtfull"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout-->

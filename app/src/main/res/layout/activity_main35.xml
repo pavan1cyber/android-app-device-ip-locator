@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:background="#9AFFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:padding="30sp"
+            android:layout_margin="20sp"
+            android:text="DOMAIN SERVICE LOCATOR"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="32dp" />
+
+        <Button
+            android:id="@+id/shtbut35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-black"
+            android:text="click to proceed to project"
+            android:padding="25sp"
+            android:textSize="15sp"
+            android:layout_margin="20sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="200sp"
+            android:alpha="0.8"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="created from  \n\n Pavan k  1AY19CS069 \n Venkatesh  1AY20CS410  \n\n guided by prof. Ranjan . G"
+            android:textAlignment="center"
+            android:paddingBottom="50sp"
+            android:paddingTop="20sp"
+            android:textSize="20sp">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+<!--androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity35">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="468dp"
+        android:alpha="0.7"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:padding="10sp"
+        android:text="created from  \n\n PAVAN  1AY19CS069 \n VENKATESH  1AY20CS410  \n\n guided by Ranjan . G"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="344dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="#9AFFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:padding="20sp"
+        android:text="DOMAIN SERVICE LOCATOR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="32dp" />
+
+    <Button
+        android:id="@+id/shtbut35"
+        android:layout_width="223dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-black"
+        android:text="click to proceed to project"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginLeft="76dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout-->
